@@ -1,0 +1,15 @@
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\Application\bin\Debug\net7.0\Application.deps.json
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\Application\bin\Debug\net7.0\Application.dll
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\Application\bin\Debug\net7.0\Application.pdb
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\Application\bin\Debug\net7.0\Domain.dll
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\Application\bin\Debug\net7.0\Domain.pdb
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\Application\obj\Debug\net7.0\Application.csproj.CopyComplete
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\Application\obj\Debug\net7.0\Application.dll
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\Application\obj\Debug\net7.0\refint\Application.dll
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\Application\obj\Debug\net7.0\Application.pdb
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\Application\obj\Debug\net7.0\ref\Application.dll

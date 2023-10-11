@@ -1,0 +1,17 @@
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\FileData\bin\Debug\net7.0\FileData.deps.json
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\FileData\bin\Debug\net7.0\FileData.dll
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\FileData\bin\Debug\net7.0\FileData.pdb
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\FileData\bin\Debug\net7.0\Application.dll
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\FileData\bin\Debug\net7.0\Domain.dll
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\FileData\bin\Debug\net7.0\Application.pdb
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\FileData\bin\Debug\net7.0\Domain.pdb
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\FileData\obj\Debug\net7.0\FileData.csproj.AssemblyReference.cache
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\FileData\obj\Debug\net7.0\FileData.GeneratedMSBuildEditorConfig.editorconfig
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\FileData\obj\Debug\net7.0\FileData.AssemblyInfoInputs.cache
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\FileData\obj\Debug\net7.0\FileData.AssemblyInfo.cs
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\FileData\obj\Debug\net7.0\FileData.csproj.CoreCompileInputs.cache
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\FileData\obj\Debug\net7.0\FileData.csproj.CopyComplete
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\FileData\obj\Debug\net7.0\FileData.dll
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\FileData\obj\Debug\net7.0\refint\FileData.dll
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\FileData\obj\Debug\net7.0\FileData.pdb
+C:\_STE\_Semester 3\DNP\Exercises\WatchList\FileData\obj\Debug\net7.0\ref\FileData.dll
