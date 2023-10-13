@@ -15,3 +15,20 @@ C:\_STE\_Semester 3\DNP\Exercises\WatchList\FileData\obj\Debug\net7.0\FileData.d
 C:\_STE\_Semester 3\DNP\Exercises\WatchList\FileData\obj\Debug\net7.0\refint\FileData.dll
 C:\_STE\_Semester 3\DNP\Exercises\WatchList\FileData\obj\Debug\net7.0\FileData.pdb
 C:\_STE\_Semester 3\DNP\Exercises\WatchList\FileData\obj\Debug\net7.0\ref\FileData.dll
+C:\Users\Pakki\Documents\GitHub\watchlist\FileData\bin\Debug\net7.0\FileData.deps.json
+C:\Users\Pakki\Documents\GitHub\watchlist\FileData\bin\Debug\net7.0\FileData.dll
+C:\Users\Pakki\Documents\GitHub\watchlist\FileData\bin\Debug\net7.0\FileData.pdb
+C:\Users\Pakki\Documents\GitHub\watchlist\FileData\bin\Debug\net7.0\Application.dll
+C:\Users\Pakki\Documents\GitHub\watchlist\FileData\bin\Debug\net7.0\Domain.dll
+C:\Users\Pakki\Documents\GitHub\watchlist\FileData\bin\Debug\net7.0\Application.pdb
+C:\Users\Pakki\Documents\GitHub\watchlist\FileData\bin\Debug\net7.0\Domain.pdb
+C:\Users\Pakki\Documents\GitHub\watchlist\FileData\obj\Debug\net7.0\FileData.csproj.AssemblyReference.cache
+C:\Users\Pakki\Documents\GitHub\watchlist\FileData\obj\Debug\net7.0\FileData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pakki\Documents\GitHub\watchlist\FileData\obj\Debug\net7.0\FileData.AssemblyInfoInputs.cache
+C:\Users\Pakki\Documents\GitHub\watchlist\FileData\obj\Debug\net7.0\FileData.AssemblyInfo.cs
+C:\Users\Pakki\Documents\GitHub\watchlist\FileData\obj\Debug\net7.0\FileData.csproj.CoreCompileInputs.cache
+C:\Users\Pakki\Documents\GitHub\watchlist\FileData\obj\Debug\net7.0\FileData.csproj.CopyComplete
+C:\Users\Pakki\Documents\GitHub\watchlist\FileData\obj\Debug\net7.0\FileData.dll
+C:\Users\Pakki\Documents\GitHub\watchlist\FileData\obj\Debug\net7.0\refint\FileData.dll
+C:\Users\Pakki\Documents\GitHub\watchlist\FileData\obj\Debug\net7.0\FileData.pdb
+C:\Users\Pakki\Documents\GitHub\watchlist\FileData\obj\Debug\net7.0\ref\FileData.dll

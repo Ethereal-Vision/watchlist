@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "buGch1qJ9c9LXhRO5bHyNp6nhiD+XsvbXolc36QYsadUAlweJ89GVTaUOC2jMC89jzVCjYUa/jlmVGOX3sMljA==",
+  "dgSpecHash": "AzYPZ1Ft/FzEM8apoLHvzxoyIQLy9mfmOsl5xVNuLpOt1nI1GR5n3e8VQdQ4rnewnH8UkThYRWda0Qtv0qqLUQ==",
   "success": true,
-  "projectFilePath": "C:\\_STE\\_Semester 3\\DNP\\Exercises\\WatchList\\FileData\\FileData.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Pakki\\Documents\\GitHub\\watchlist\\FileData\\FileData.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pakki\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

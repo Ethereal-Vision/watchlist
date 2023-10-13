@@ -37,3 +37,44 @@ C:\_STE\_Semester 3\DNP\Exercises\WatchList\WatchList\obj\Debug\net7.0\refint\Wa
 C:\_STE\_Semester 3\DNP\Exercises\WatchList\WatchList\obj\Debug\net7.0\WatchList.pdb
 C:\_STE\_Semester 3\DNP\Exercises\WatchList\WatchList\obj\Debug\net7.0\WatchList.genruntimeconfig.cache
 C:\_STE\_Semester 3\DNP\Exercises\WatchList\WatchList\obj\Debug\net7.0\ref\WatchList.dll
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\bin\Debug\net7.0\appsettings.json
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\bin\Debug\net7.0\WatchList.exe
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\bin\Debug\net7.0\WatchList.deps.json
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\bin\Debug\net7.0\WatchList.runtimeconfig.json
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\bin\Debug\net7.0\WatchList.dll
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\bin\Debug\net7.0\WatchList.pdb
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\bin\Debug\net7.0\Application.dll
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\bin\Debug\net7.0\Domain.dll
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\bin\Debug\net7.0\FileData.dll
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\bin\Debug\net7.0\Application.pdb
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\bin\Debug\net7.0\FileData.pdb
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\bin\Debug\net7.0\Domain.pdb
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\WatchList.csproj.AssemblyReference.cache
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\WatchList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\WatchList.AssemblyInfoInputs.cache
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\WatchList.AssemblyInfo.cs
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\WatchList.csproj.CoreCompileInputs.cache
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\WatchList.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\WatchList.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\staticwebassets\msbuild.WatchList.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\staticwebassets\msbuild.build.WatchList.props
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WatchList.props
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WatchList.props
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\scopedcss\bundle\WatchList.styles.css
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\WatchList.csproj.CopyComplete
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\WatchList.dll
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\refint\WatchList.dll
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\WatchList.pdb
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\WatchList.genruntimeconfig.cache
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\ref\WatchList.dll
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\bin\Debug\net7.0\data.json
