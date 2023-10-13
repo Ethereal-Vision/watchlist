@@ -9,4 +9,5 @@ public interface IMediaLogic
     Task UpdateAsync(MediaUpdateDto dto);
     Task DeleteAsync(int id);
     Task<Media> GetByIdAsync(int id);
+    Task<IEnumerable<Media>> GetAsync();
 }

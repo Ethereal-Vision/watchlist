@@ -8,4 +8,5 @@ public interface IMediaDao
     Task UpdateAsync(Media media);
     Task DeleteAsync(int id);
     Task<Media> GetById(int id);
+    Task<IEnumerable<Media>> GetAsync();
 }

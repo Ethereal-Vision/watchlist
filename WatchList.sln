@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileData", "FileData\FileDa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{2D1F22E2-97CF-494A-B8A4-24138CADFA05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClients", "HttpClients\HttpClients.csproj", "{40C6F2A6-2D36-4061-8B02-C8ECF9420F42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{2D1F22E2-97CF-494A-B8A4-24138CADFA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D1F22E2-97CF-494A-B8A4-24138CADFA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D1F22E2-97CF-494A-B8A4-24138CADFA05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C6F2A6-2D36-4061-8B02-C8ECF9420F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C6F2A6-2D36-4061-8B02-C8ECF9420F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C6F2A6-2D36-4061-8B02-C8ECF9420F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C6F2A6-2D36-4061-8B02-C8ECF9420F42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

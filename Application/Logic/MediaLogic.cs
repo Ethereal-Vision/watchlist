@@ -126,6 +126,11 @@ public class MediaLogic : IMediaLogic
         return media;
     }
 
+    public Task<IEnumerable<Media>> GetAsync()
+    {
+        return _mediaDao.GetAsync();
+    }
+
     private void ValidateMediaCreationDto(MediaCreationDto dto)
     {
         if (string.IsNullOrEmpty(dto.Title))

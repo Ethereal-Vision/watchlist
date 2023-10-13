@@ -58,4 +58,10 @@ public class MediaFileDao : IMediaDao
             throw new Exception($"A Media with ID {id} does not exist!");
         return Task.FromResult(existing);
     }
+
+    public Task<IEnumerable<Media>> GetAsync()
+    {
+        IEnumerable<Media>? medias = _context.Medias?.AsEnumerable();
+        return Task.FromResult(medias);
+    }
 }
