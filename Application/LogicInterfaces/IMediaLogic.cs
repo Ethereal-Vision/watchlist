@@ -7,4 +7,6 @@ public interface IMediaLogic
 {
     Task<Media> CreateAsync(MediaCreationDto dto);
     Task UpdateAsync(MediaUpdateDto dto);
+    Task DeleteAsync(int id);
+    Task<Media> GetByIdAsync(int id);
 }
