@@ -9,6 +9,18 @@
       "ViktorRating": 0.0,
       "Status": "Not Started",
       "Type": "Movie"
+    },
+    {
+      "$type": "Domain.Models.Anime, Domain",
+      "NumberOfEpisodes": 8,
+      "CurrentEpisode": 0,
+      "Id": 2,
+      "Title": "Scott Pilgrim The Anime",
+      "AvgRating": 0.0,
+      "ErnestRating": 0.0,
+      "ViktorRating": 0.0,
+      "Status": "Not Started",
+      "Type": "Anime"
     }
   ]
 }
