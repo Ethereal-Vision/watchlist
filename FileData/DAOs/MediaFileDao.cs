@@ -22,7 +22,7 @@ public class MediaFileDao : IMediaDao
         }
 
         media.Id = id;
-        _context.Medias?.Add(media);
+        _context.Medias.Add(media);
         _context.SaveChanges();
         return Task.FromResult(media);
     }

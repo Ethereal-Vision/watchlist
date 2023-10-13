@@ -1,1 +1,14 @@
-{"Medias":[{"Id":1,"Title":"Hiya","AvgRating":0,"ErnestRating":0,"ViktorRating":0,"Status":"Not Started"}]}
+{
+  "Medias": [
+    {
+      "$type": "Domain.Models.Movie, Domain",
+      "Id": 1,
+      "Title": "Movie 2",
+      "AvgRating": 0.0,
+      "ErnestRating": 5.0,
+      "ViktorRating": 0.0,
+      "Status": "Not Started",
+      "Type": "Movie"
+    }
+  ]
+}

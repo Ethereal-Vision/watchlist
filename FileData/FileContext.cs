@@ -1,4 +1,4 @@
-﻿using System.Text.Json;
+﻿using Newtonsoft.Json;
 using Domain.Models;
 
 namespace FileData;
@@ -38,12 +38,19 @@ public class FileContext
             return;
         }
         string content = File.ReadAllText(FilePath);
-        _dataContainer = JsonSerializer.Deserialize<DataContainer>(content);
+        _dataContainer = JsonConvert.DeserializeObject<DataContainer>(content, new JsonSerializerSettings
+        {
+            TypeNameHandling = TypeNameHandling.All
+        });
     }
 
     public void SaveChanges()
     {
-        string serialized = JsonSerializer.Serialize(_dataContainer);
+        string serialized = JsonConvert.SerializeObject(_dataContainer, new JsonSerializerSettings
+        {
+            Formatting = Formatting.Indented,
+            TypeNameHandling = TypeNameHandling.Auto
+        });
         File.WriteAllText(FilePath, serialized);
         _dataContainer = null;
     }
