@@ -45,4 +45,34 @@ public class MediaController : ControllerBase
             return StatusCode(500, e.Message);
         }
     }
+
+    [HttpGet("{id:int}")]
+    public async Task<ActionResult<Media>> GetByIdAsync([FromRoute] int id)
+    {
+        try
+        {
+            Media media = await _mediaLogic.GetByIdAsync(id);
+            return Ok(media);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return StatusCode(500, e.Message);
+        }
+    }
+
+    [HttpDelete("{id:int}")]  
+    public async Task<ActionResult> DeleteAsync([FromRoute] int id)
+    {
+        try
+        {
+            await _mediaLogic.DeleteAsync(id);
+            return Ok();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
+            return StatusCode(500, e.Message);
+        }
+    }
 }

@@ -112,11 +112,25 @@ public class MediaLogic : IMediaLogic
         await _mediaDao.UpdateAsync(updatedMedia);
     }
 
+    public async Task DeleteAsync(int id)
+    {
+        Media? media = await GetByIdAsync(id);
+        await _mediaDao.DeleteAsync(id);
+    }
+
+    public async Task<Media> GetByIdAsync(int id)
+    {
+        Media? media = await _mediaDao.GetById(id);
+        if (media == null)
+            throw new Exception($"A Media with ID {id} does not exist!");
+        return media;
+    }
+
     private void ValidateMediaCreationDto(MediaCreationDto dto)
     {
         if (string.IsNullOrEmpty(dto.Title))
             throw new Exception("Title cannot be empty!");
-        if (dto.Type == MediaCreationDto.Anime || dto.Type == MediaCreationDto.TvShow)
+        if (dto.Type == Media.Anime || dto.Type == Media.TvShow)
             if (dto.NumberOfEpisodes <= 0)
                 throw new Exception($"Number of episodes is either 0, not specified or an invalid number!");
     }
@@ -125,7 +139,7 @@ public class MediaLogic : IMediaLogic
     {
         if (string.IsNullOrEmpty(dto.Title))
             throw new Exception("Title cannot be empty!");
-        if (dto.Type == MediaCreationDto.Anime || dto.Type == MediaCreationDto.TvShow)
+        if (dto.Type.Equals(Media.Anime) || dto.Type.Equals(Media.TvShow))
             if (dto.NumberOfEpisodes <= 0)
                 throw new Exception($"Number of episodes is either 0, not specified or an invalid number!");
         if (dto.CurrentEpisode > dto.NumberOfEpisodes || dto.CurrentEpisode < 0)
