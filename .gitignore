@@ -1,4 +1,4 @@
-# .NET Core / .NET build and runtime artifacts
+# General .NET
 bin/
 obj/
 out/
@@ -39,9 +39,6 @@ _ReSharper*/
 *.jfm
 migrations/
 
-# ASP.NET Scaffolding files
-ScaffoldingReadMe.txt
-
 # Visual Studio Code
 .vscode/
 *.code-workspace
@@ -50,12 +47,12 @@ ScaffoldingReadMe.txt
 .idea/
 *.sln.iml
 
-# React project specifics
-node_modules/
-/build/
-/.pnp
-.pnp.js
-/public/
+# React specifics (for Presentation directory)
+/Presentation/node_modules/
+/Presentation/build/
+/Presentation/.pnp
+/Presentation/pnp.js
+/Presentation/public/
 
 # Logs and databases
 *.log
