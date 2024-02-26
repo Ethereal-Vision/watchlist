@@ -35,6 +35,19 @@ _ReSharper*/
 .idea/
 *.csproj.DotSettings.user
 
+# Specific ignores for .NET build artifacts and caches
+**/obj/Debug/**/*
+**/bin/Debug/**/*
+
+# Ensure to ignore generated MSBuild, NuGet, and Assembly caches
+*.csproj.AssemblyReference.cache
+*.assets.cache
+*.genruntimeconfig.cache
+*.nuget.dgspec.json
+*.nuget.g.props
+*GeneratedMSBuildEditorConfig.editorconfig
+*project.nuget.cache
+
 # Entity Framework Core
 *.jfm
 migrations/
