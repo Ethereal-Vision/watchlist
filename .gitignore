@@ -1,4 +1,4 @@
-# .NET Core / .NET build and runtime artifacts
+# General .NET
 bin/
 obj/
 out/
@@ -35,12 +35,22 @@ _ReSharper*/
 .idea/
 *.csproj.DotSettings.user
 
+# Specific ignores for .NET build artifacts and caches
+**/obj/Debug/**/*
+**/bin/Debug/**/*
+
+# Ensure to ignore generated MSBuild, NuGet, and Assembly caches
+*.csproj.AssemblyReference.cache
+*.assets.cache
+*.genruntimeconfig.cache
+*.nuget.dgspec.json
+*.nuget.g.props
+*GeneratedMSBuildEditorConfig.editorconfig
+*project.nuget.cache
+
 # Entity Framework Core
 *.jfm
 migrations/
-
-# ASP.NET Scaffolding files
-ScaffoldingReadMe.txt
 
 # Visual Studio Code
 .vscode/
@@ -50,12 +60,12 @@ ScaffoldingReadMe.txt
 .idea/
 *.sln.iml
 
-# React project specifics
-node_modules/
-/build/
-/.pnp
-.pnp.js
-/public/
+# React specifics (for Presentation directory)
+/Presentation/node_modules/
+/Presentation/build/
+/Presentation/.pnp
+/Presentation/pnp.js
+/Presentation/public/
 
 # Logs and databases
 *.log
