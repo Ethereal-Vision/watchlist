@@ -1,0 +1,50 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    animation: slideIn 1s forwards;
+    background-color: #f0f0f0; /* Change the background color as needed */
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card-line {
+    animation: slideIn 1s forwards;
+    text-align: center;
+    margin: 5px 0;
+}
+
+label, input, select {
+    width: 100%;
+}
+
+label[style="color: red"] {
+    animation: slideDown 0.5s forwards;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

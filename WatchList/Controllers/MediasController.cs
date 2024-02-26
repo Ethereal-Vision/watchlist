@@ -7,11 +7,11 @@ namespace WatchList.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class MediaController : ControllerBase
+public class MediasController : ControllerBase
 {
     private readonly IMediaLogic _mediaLogic;
 
-    public MediaController(IMediaLogic mediaLogic)
+    public MediasController(IMediaLogic mediaLogic)
     {
         _mediaLogic = mediaLogic;
     }
@@ -53,6 +53,21 @@ public class MediaController : ControllerBase
         {
             Media media = await _mediaLogic.GetByIdAsync(id);
             return Ok(media);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return StatusCode(500, e.Message);
+        }
+    }
+    
+    [HttpGet]
+    public async Task<ActionResult<Media>> GetAsync()
+    {
+        try
+        {
+            IEnumerable<Media> medias = await _mediaLogic.GetAsync();
+            return Ok(medias);
         }
         catch (Exception e)
         {

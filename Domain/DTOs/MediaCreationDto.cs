@@ -7,7 +7,6 @@ public class MediaCreationDto
     public int NumberOfEpisodes { get; }
     
     //Types:
-    public const string Anime = "Anime";
     public const string Movie = "Movie";
     public const string TvShow = "TV Show";
 

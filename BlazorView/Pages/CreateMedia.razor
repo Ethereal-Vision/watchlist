@@ -1,0 +1,71 @@
+﻿@page "/CreateMedia"
+@using Domain.DTOs
+@using HttpClients.ClientInterfaces
+@inject IMediaService MediaService;
+@inject NavigationManager NavMgr;
+
+<div class="card">
+    <h3>Create Media</h3>
+    <div class="card-line">
+        <label>Title: </label>
+        <input type="text" @bind="_title"/>
+    </div>
+    <div class="card-line">
+        <label>Type: </label>
+        <select @bind="_type">
+            <option value="None">None</option>
+            <option value="Movie">Movie</option>
+            <option value="TV Show">TV Show</option>
+            <option value="Anime">Anime</option>
+        </select>
+    </div>
+    @if (_type != null && (_type.Equals("TV Show") || _type.Equals("Anime")))
+    {
+        <div class="card-line">
+            <label>Number of Episodes: </label>
+            <input type="number" @bind="@_numberOfEpisodes"/>
+        </div>
+    }
+    <div class="button-row">
+        @if (!string.IsNullOrEmpty(_msg))
+        {
+            <label style="color: red">@_msg</label>
+        }
+        <button @onclick="Create" class="acceptbtn">Create</button>
+    </div>
+</div>
+
+@code {
+    private string _title;
+    private string _type;
+    private int _numberOfEpisodes;
+
+    private string _msg = "";
+
+    private async Task Create()
+    {
+        _msg = "";
+        if (string.IsNullOrEmpty(_title))
+        {
+            _msg = "The media needs a title!";
+            return;
+        }
+        if (string.IsNullOrEmpty(_type) || _type.Equals("None"))
+        {
+            _msg = "The type needs to be selected!";
+            return;
+        }
+
+        try
+        {
+            MediaCreationDto dto = new MediaCreationDto(_title, _type, _numberOfEpisodes);
+            await MediaService.CreateAsync(dto);
+            NavMgr.NavigateTo("/");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            _msg = e.Message;
+        }
+    }
+}

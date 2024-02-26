@@ -77,4 +77,3 @@ C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\WatchList.p
 C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\WatchList.genruntimeconfig.cache
 C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\obj\Debug\net7.0\ref\WatchList.dll
 C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\bin\Debug\net7.0\Newtonsoft.Json.dll
-C:\Users\Pakki\Documents\GitHub\watchlist\WatchList\bin\Debug\net7.0\data.json

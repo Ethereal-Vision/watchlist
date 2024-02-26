@@ -11,7 +11,6 @@ public class Media
     public string Status { get; set; }
     public string Type { get; set; }
     
-    public const string Anime = "Anime";
     public const string Movie = "Movie";
     public const string TvShow = "TV Show";
 

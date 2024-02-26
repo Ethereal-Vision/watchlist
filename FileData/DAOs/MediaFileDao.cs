@@ -22,7 +22,7 @@ public class MediaFileDao : IMediaDao
         }
 
         media.Id = id;
-        _context.Medias.Add(media);
+        _context.Medias?.Add(media);
         _context.SaveChanges();
         return Task.FromResult(media);
     }
@@ -57,5 +57,11 @@ public class MediaFileDao : IMediaDao
         if (existing == null)
             throw new Exception($"A Media with ID {id} does not exist!");
         return Task.FromResult(existing);
+    }
+
+    public Task<IEnumerable<Media>?> GetAsync()
+    {
+        IEnumerable<Media>? medias = _context.Medias?.AsEnumerable();
+        return Task.FromResult(medias);
     }
 }
