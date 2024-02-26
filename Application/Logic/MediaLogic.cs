@@ -19,8 +19,6 @@ public class MediaLogic : IMediaLogic
         ValidateMediaCreationDto(dto);
         Media? media = null;
         string? type = dto.Type;
-        if (type.Equals(Media.Anime))
-            media = new Anime(dto.NumberOfEpisodes, dto.Title);
         if (type.Equals(Media.Movie))
             media = new Movie(dto.Title);
         if (type.Equals(Media.TvShow))
@@ -48,12 +46,6 @@ public class MediaLogic : IMediaLogic
         string status = dto.Status ?? existing.Status;
         int numberOfEpisodes = 0;
         int currentEpisode = 0;
-        if(existing is Anime)
-        {
-            Anime anime = (Anime)existing;
-            numberOfEpisodes = dto.NumberOfEpisodes ?? anime.NumberOfEpisodes;
-            currentEpisode = dto.CurrentEpisode ?? anime.CurrentEpisode;
-        }
 
         if (existing is TvShow)
         {
@@ -90,19 +82,6 @@ public class MediaLogic : IMediaLogic
             };
         }
         
-        if (type == MediaCreationDto.Anime)
-        {
-            updatedMedia = new Anime(numberOfEpisodes,title)
-            {
-                Id = dto.Id,
-                AvgRating = avgRating,
-                ErnestRating = ernestRating,
-                ViktorRating = viktorRating,
-                Status = status,
-                Type = Media.Anime,
-                CurrentEpisode = currentEpisode
-            };
-        }
         
         if (updatedMedia == null)
         {
@@ -135,7 +114,7 @@ public class MediaLogic : IMediaLogic
     {
         if (string.IsNullOrEmpty(dto.Title))
             throw new Exception("Title cannot be empty!");
-        if (dto.Type == Media.Anime || dto.Type == Media.TvShow)
+        if (dto.Type == Media.TvShow)
             if (dto.NumberOfEpisodes <= 0)
                 throw new Exception($"Number of episodes is either 0, not specified or an invalid number!");
     }
@@ -144,14 +123,14 @@ public class MediaLogic : IMediaLogic
     {
         if (string.IsNullOrEmpty(dto.Title))
             throw new Exception("Title cannot be empty!");
-        if (dto.Type.Equals(Media.Anime) || dto.Type.Equals(Media.TvShow))
+        if (dto.Type.Equals(Media.TvShow))
             if (dto.NumberOfEpisodes <= 0)
                 throw new Exception($"Number of episodes is either 0, not specified or an invalid number!");
         if (dto.CurrentEpisode > dto.NumberOfEpisodes || dto.CurrentEpisode < 0)
             throw new Exception("Current episode is either an invalid number or above the Media's number of episodes!");
         if (dto.ViktorRating < 0 || dto.ViktorRating > 10 || dto.ErnestRating < 0 || dto.ErnestRating > 10)
             throw new Exception("Rating can only be between 0 and 10");
-        if (!dto.Type.Equals(Media.Anime) && !dto.Type.Equals(Media.TvShow) &&
+        if (!dto.Type.Equals(Media.TvShow) &&
             !dto.Type.Equals(Media.Movie))
             throw new Exception("Media type is invalid!");
     }

@@ -22,7 +22,7 @@ public class MediaFileDao : IMediaDao
         }
 
         media.Id = id;
-        _context.Medias.Add(media);
+        _context.Medias?.Add(media);
         _context.SaveChanges();
         return Task.FromResult(media);
     }
@@ -59,7 +59,7 @@ public class MediaFileDao : IMediaDao
         return Task.FromResult(existing);
     }
 
-    public Task<IEnumerable<Media>> GetAsync()
+    public Task<IEnumerable<Media>?> GetAsync()
     {
         IEnumerable<Media>? medias = _context.Medias?.AsEnumerable();
         return Task.FromResult(medias);

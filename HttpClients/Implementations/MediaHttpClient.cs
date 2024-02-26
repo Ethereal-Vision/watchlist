@@ -19,7 +19,7 @@ public class MediaHttpClient : IMediaService
     
     public async Task CreateAsync(MediaCreationDto dto)
     {
-        HttpResponseMessage response = await _client.PostAsJsonAsync("/Medias", dto);
+        HttpResponseMessage response = await _client.PostAsJsonAsync("/medias", dto);
         if (!response.IsSuccessStatusCode)
         {
             string result = await response.Content.ReadAsStringAsync();
@@ -29,7 +29,7 @@ public class MediaHttpClient : IMediaService
 
     public async Task<ICollection<Media>> GetAsync()
     {
-        HttpResponseMessage response = await _client.GetAsync("/Medias");
+        HttpResponseMessage response = await _client.GetAsync("/medias");
         string content = await response.Content.ReadAsStringAsync();
         if (!response.IsSuccessStatusCode)
         {
@@ -48,7 +48,7 @@ public class MediaHttpClient : IMediaService
     {
         string dtoAsJson = JsonConvert.SerializeObject(dto);
         StringContent body = new StringContent(dtoAsJson, Encoding.UTF8, "application.json");
-        HttpResponseMessage response = await _client.PatchAsJsonAsync("/Medias", body);
+        HttpResponseMessage response = await _client.PatchAsJsonAsync("/medias", body);
         if (!response.IsSuccessStatusCode)
         {
             string content = await response.Content.ReadAsStringAsync();
@@ -58,7 +58,7 @@ public class MediaHttpClient : IMediaService
 
     public async Task DeleteAsync(int id)
     {
-        HttpResponseMessage response = await _client.DeleteAsync($"/Medias/{id}");
+        HttpResponseMessage response = await _client.DeleteAsync($"/medias/{id}");
         if (!response.IsSuccessStatusCode)
         {
             string content = await response.Content.ReadAsStringAsync();
@@ -68,7 +68,7 @@ public class MediaHttpClient : IMediaService
 
     public async Task<Media> GetById(int id)
     {
-        HttpResponseMessage response = await _client.GetAsync($"/Medias/{id}");
+        HttpResponseMessage response = await _client.GetAsync($"/medias/{id}");
         string content = await response.Content.ReadAsStringAsync();
         if (!response.IsSuccessStatusCode)
         {

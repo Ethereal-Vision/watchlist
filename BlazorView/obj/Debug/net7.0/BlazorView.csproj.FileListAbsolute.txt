@@ -36,3 +36,4 @@ C:\Users\Pakki\Documents\GitHub\watchlist\BlazorView\obj\Debug\net7.0\refint\Bla
 C:\Users\Pakki\Documents\GitHub\watchlist\BlazorView\obj\Debug\net7.0\BlazorView.pdb
 C:\Users\Pakki\Documents\GitHub\watchlist\BlazorView\obj\Debug\net7.0\BlazorView.genruntimeconfig.cache
 C:\Users\Pakki\Documents\GitHub\watchlist\BlazorView\obj\Debug\net7.0\ref\BlazorView.dll
+C:\Users\Pakki\Documents\GitHub\watchlist\BlazorView\obj\Debug\net7.0\scopedcss\Pages\CreateMedia.razor.rz.scp.css

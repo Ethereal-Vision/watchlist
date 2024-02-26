@@ -1,3 +1,54 @@
+/* _content/BlazorView/Pages/CreateMedia.razor.rz.scp.css */
+.card[b-k81rtgebcn] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    animation: slideIn-b-k81rtgebcn 1s forwards;
+    background-color: #f0f0f0; /* Change the background color as needed */
+}
+
+.card h3[b-k81rtgebcn] {
+    margin-bottom: 10px;
+}
+
+.card-line[b-k81rtgebcn] {
+    animation: slideIn-b-k81rtgebcn 1s forwards;
+    text-align: center;
+    margin: 5px 0;
+}
+
+label[b-k81rtgebcn], input[b-k81rtgebcn], select[b-k81rtgebcn] {
+    width: 100%;
+}
+
+label[style="color: red"][b-k81rtgebcn] {
+    animation: slideDown-b-k81rtgebcn 0.5s forwards;
+}
+
+@keyframes slideIn-b-k81rtgebcn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown-b-k81rtgebcn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 /* _content/BlazorView/Shared/MainLayout.razor.rz.scp.css */
 .page[b-o7pwigkbop] {
     position: relative;

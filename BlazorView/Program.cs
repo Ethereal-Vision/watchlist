@@ -11,7 +11,7 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped(
     sp => 
         new HttpClient { 
-            BaseAddress = new Uri("https://localhost:5152") 
+            BaseAddress = new Uri("http://localhost:5152") 
         }
 );
 builder.Services.AddScoped<IMediaService, MediaHttpClient>();
